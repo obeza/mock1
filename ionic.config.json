@@ -1,0 +1,7 @@
+{
+  "name": "mock1",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
