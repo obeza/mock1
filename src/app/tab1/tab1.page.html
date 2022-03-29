@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Bébés
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -13,5 +13,49 @@
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-card>
+    <img src="./../../assets/mikey.jpg" alt="">
+    <ion-card-content>
+      Cette semaine, il y aura tel événement et bla Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum laboriosam id quidem aut dolorem, reprehenderit consectetur accusantium. 
+    </ion-card-content>
+    <ion-card-content class="actu_bottom">
+      voir toute les activités
+    </ion-card-content>
+  </ion-card>
+
+  <ion-list>
+    <ion-list-header><h4>Actualités de votre bébé</h4></ion-list-header>
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="./../../assets/avatar-luke.png" />
+      </ion-avatar>
+      <ion-label>
+        <h2>Luke</h2>
+        <h3>Your thoughts betray you</h3>
+      </ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="./../../assets/avatar-leia.png" />
+      </ion-avatar>
+      <ion-label>
+        <h2>Leia</h2>
+        <h3>You're My Only Hope</h3>
+      </ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="./../../assets/avatar-yoda.png" />
+      </ion-avatar>
+      <ion-label>
+        <h2>Yoda</h2>
+        <h3>Size matters not</h3>
+      </ion-label>
+    </ion-item>
+
+  </ion-list>
+
+
 </ion-content>
